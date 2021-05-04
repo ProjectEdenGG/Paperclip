@@ -13,12 +13,8 @@
             <outputDirectory>.</outputDirectory>
         </fileSet>
         <fileSet>
-            <directory>${project.basedir}/../java8/target/classes/</directory>
+            <directory>${project.basedir}/../java15/target/classes/</directory>
             <outputDirectory>.</outputDirectory>
-        </fileSet>
-        <fileSet>
-            <directory>${project.basedir}/../java9/target/classes</directory>
-            <outputDirectory>META-INF/versions/9/</outputDirectory>
         </fileSet>
     </fileSets>
     <dependencySets>
