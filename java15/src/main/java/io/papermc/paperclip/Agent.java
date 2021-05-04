@@ -23,6 +23,10 @@ public final class Agent {
         // noop - if this is called on Java 8 we just ignore it
     }
 
+    public static void agentmain(final String agentArgs, final Instrumentation inst) {
+        // noop - if this is called on Java 15 we just ignore it
+    }
+
     static void addToClassPath(final Path paperJar) {
         final ClassLoader loader = ClassLoader.getSystemClassLoader();
         if (!(loader instanceof URLClassLoader)) {
