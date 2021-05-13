@@ -100,7 +100,7 @@
     <dependencies>
         <dependency>
             <groupId>${project.groupId}</groupId>
-            <artifactId>paperclip-java15</artifactId>
+            <artifactId>paperclip-java16</artifactId>
             <version>${project.version}</version>
         </dependency>
     </dependencies>
